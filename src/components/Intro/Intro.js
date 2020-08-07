@@ -16,13 +16,13 @@ Contains the INFORMATION for FROM THE ONLINE ETHICS
 // IMPORTANT: Has to match the import names in the Survey.js !!! 
 
 const survey_list = [
-// 'demo', // demograhics
-// 'bis',  // impulsivity 
-// 'ius',  // uncertianty 
-// 'asrs', // adhd
-// 'spq',  // schizotipy  
-// 'stai', // trait anxiety 
-// 'ocir', // OCD
+'demo', // demograhics
+'bis',  // impulsivity 
+'ius',  // uncertianty 
+'asrs', // adhd
+'spq',  // schizotipy  
+'stai', // trait anxiety 
+'ocir', // OCD
 'gad', // worry to replace by GAD-7  
 'aes',  // apathy 
 'lsa',  // social anxiety 
@@ -30,6 +30,7 @@ const survey_list = [
 'iq',    // IQ, 
 'feedback', // feedback on the experiment ,
 ]
+
 
  
 class Intro extends React.Component {
